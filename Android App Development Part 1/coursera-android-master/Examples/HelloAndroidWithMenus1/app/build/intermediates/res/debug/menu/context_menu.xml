@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/help_guide"
+        android:title="@string/guide"/>
+
+</menu><!-- From: file:/C:/Users/user/desktop/Coursera/Android%20App%20Development%20Part%201/coursera-android-master/Examples/HelloAndroidWithMenus1/app/src/main/res/menu/context_menu.xml -->

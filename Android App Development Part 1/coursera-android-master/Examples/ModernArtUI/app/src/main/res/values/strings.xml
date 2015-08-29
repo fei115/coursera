@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Modern Art UI</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">More information</string>
+    <string name="description">Inspired by the works of artists such as Piet Mondrian and Ben Nicholson</string>
+</resources>

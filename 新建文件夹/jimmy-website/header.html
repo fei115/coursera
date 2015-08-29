@@ -1,0 +1,180 @@
+  <!DOCTYPE html>
+<!--Final Project-->
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="grid.css" />
+  <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen" />
+  <style>
+  #wrapper 	{width: 1000px;}
+  .rightside {
+        width:650px;
+        display: inline-block;
+        min-height: 500px;
+        float: right;
+        margin-top:20px; // NEWLY ADDED
+  }
+  .leftside {	
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-weight: bold;
+        width:300px;
+        margin-left: 20px;
+        margin-top: 20px;
+        display: inline-block;
+  }
+  .leftside .ans{
+          float: right;
+          width: 180px;
+          display: inline-block;
+          margin: 0px;
+  }
+  .leftside .disc{display: inline-block;
+          width: 100px;
+          float: left;
+          margin: 0px;}
+  .leftside .input {display: inline-block;}
+  .leftside .ansRow {margin-bottom: 5px;
+            height: 26px;
+            float:left;
+            width:300px;}
+    .rightside .contentview1 p {float:right; color: black;}
+    .rightside .contentview1 {width: 300px; height: 400px; background: grey;display:inline-block;}
+		.rightside .contentview1 {margin-left: auto;
+															margin-right: auto;}
+		.rightside h2 {color: black; font-size:24px;}
+    .rightside .contentview1 {margin: 5px 10px;}
+    
+select {
+	width: 180px;
+}
+
+.price {
+	max-width: 75px;
+	border: 0;
+	border-bottom: thick solid black;
+	margin-left: 3px;
+	margin-right: 3px;
+	text-align: center;
+}
+
+.form-btn{
+	background: none;
+	border:none;
+	color: black;
+	font-size: 20px;
+	font-family: verdana, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	float: right;
+}	
+  </style>
+  <title>
+    Support
+  </title>
+  </head>
+  <body>
+  <!-- TOP NAVIATION-->
+    <div id="wrapper">
+      <div id = "bar">
+        <div class="nav"><div class="section-inner">
+          <nav>
+            <ul>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Account</a></li>
+              <li><a href="#">Post</a></li>
+            </ul>
+          </nav>
+        </div></div></div>
+      <div id ="icon">
+        <a href = "#"><img src="list.png" title="JE List"></a>
+      </div>
+
+      <div class="search">
+        <form method="get" id="searchform" action="#">
+          <fieldset class="search">
+            <input type="text" class="box" />
+            <button class="btn" title="Submit Search">Search</button>
+          </fieldset>
+        </form>
+      </div>
+
+    <form class="leftside">
+			<div class="ansRow">
+				<p class="disc">Keywords</p> <input type="text" class="ans">
+			</div>
+			<div class="ansRow">
+				<p class="disc">By</p> 
+				<div class="ans">Owner <input class="price" type="checkbox" name="owner"> Dealer <input type="checkbox" name="dealer"></div>
+			</div>
+			<div class="ansRow">
+				<p class="disc">Price</p> 
+				<div class="ans"><input class="price" type="text" placeholder="Min">  -  <input class="price" type="text" placeholder="Max"></div>
+			</div> 
+			<div class="ansRow">
+				<p class="disc">Location</p> 
+				<div class="ans">
+					<select>
+            <option value="any">Any</option>
+						<option value="AB">Alberta</option>
+						<option value="BC">British Columbia</option>
+						<option value="MB">Manitoba</option>
+						<option value="NB">New Brunswick</option>
+            <option value="NL">Newfoundland and Labrador</option>
+						<option value="NS">Nova Scotia</option>
+						<option value="ON">Ontario</option>
+						<option value="PE">Prince Edward Island</option>
+						<option value="QC">Quebec</option>
+						<option value="SK">Saskatchewan</option>
+						<option value="NT">Northwest Territories</option>
+						<option value="NU">Nunavut</option>
+						<option value="YT">Yukon</option>
+					</select>	
+				</div>
+			</div>
+			<div class="ansRow" style="Background: #E6E6E6;height: 36px"> 
+				<input class="form-btn" type="button" value="Apply"><input class="form-btn" type="reset" value="Reset"> 
+			</div>
+		</form>
+
+      <div class="rightside">
+        <div class="sort">
+          <a href="layout2.html"> <img src="// TODO" height="30px" width="30px" ></a>
+        </div>
+        <div class="contentBox">
+          <a href="gameBundle.html //TODO"> 
+            <div class="contentview1">
+              <img src="//TODO">
+              <h2>PS4 GAME BUNDLE</h2>
+              <p> CAD $120</p>
+            </div>
+          </a>
+          
+          <a href="gameBundle.html //TODO"> 
+            <div class="contentview1">
+              <img src="//TODO">
+              <h2>FALL OUT 4</h2>
+              <p> CAD $50</p>
+            </div>
+          </a>
+          
+          <a href="gameBundle.html //TODO"> 
+            <div class="contentview1">
+              <img src="//TODO">
+              <h2>Diablo 3</h2>
+              <p> CAD $20</p>
+            </div>
+          </a>
+          
+          <a href="gameBundle.html //TODO"> 
+            <div class="contentview1">
+              <img src="//TODO">
+              <h2>Plants Vs. Zombie</h2>
+              <p> CAD $5</p>
+            </div>
+          </a>
+        </div>
+			</div>
+    </div>
+  </body>
+</html>
+  

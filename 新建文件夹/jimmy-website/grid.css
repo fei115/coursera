@@ -1,0 +1,19 @@
+
+.nav-1{
+	float: left;
+	width: 10%;
+}
+
+@media (max-width:60em){
+	.nav-1{
+		width:10%;
+	}
+
+@media (max-width:38em){
+	.nav-1{
+		width:100%;
+	}
+
+	.nav-1.blank{
+		display:none;
+	}
